@@ -1,0 +1,11 @@
+Apc ui custmization : drcika.apc-extension
+Error Lens : usernamehw.errorlens
+Es7 react redux
+frosted Glass Theme
+Github code spaces
+js es6 code snippet
+path intellisense
+prettier
+vs code animations
+vs code icon
+transparent color theme

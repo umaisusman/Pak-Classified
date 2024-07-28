@@ -1,0 +1,26 @@
+- Pakistan country Id
+665ef025d07d740229682cc8
+
+- Punjab id
+665ef0cbd07d740229682ccb
+
+-lahore id
+665ef15ed07d740229682cce
+
+-walton id
+665ef1d0d07d740229682cd1
+
+- admin id
+665eef39d07d740229682cc2
+
+-user id
+665eef39d07d740229682cc2
+
+- video ad type
+665ef276d07d740229682cd7
+
+-pending status
+665ef33dd07d740229682cdb
+
+
+

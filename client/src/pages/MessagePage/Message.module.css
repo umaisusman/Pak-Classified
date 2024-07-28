@@ -1,0 +1,18 @@
+.messageList {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .messageItem {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sender {
+    font-weight: bold;
+  }
+  
+  .content {
+    margin-top: 5px;
+  }
+  

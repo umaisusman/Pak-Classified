@@ -1,0 +1,23 @@
+- Fetch home page data (done)
+- Fetch Category Page Data (Done)
+- Fetch Details Page Data (Done)
+- Post Login (Done)
+- Post Signup (Done)
+- Post Contact Email (Done)
+- Add Like button on HomePage Posts (Done)
+- Post Advertisement (Done)
+- Comments in Detail Page (Done)
+- profile pic update remove (Done)
+- Add like button in detail Page (Done)
+
+
+- Auto reply email login (pending)
+- Edit , Delete Login in detail  page (pending)
+- saved ads data in profile page (pending)
+- remove or share ads logic (Pending)
+- edit , remove ads in profile page (pending)
+- Add message options in site (pending)
+
+- Admin Panel creation in site (pending)
+- get create delete update of all routes of backend by admin (pending)
+

@@ -1,0 +1,81 @@
+.chatList {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatItem {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chatItem:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .selected {
+    background-color: #e0e0e0;
+  }
+  
+  .deleteIcon {
+    color: red;
+    cursor: pointer;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    overflow-y: scroll;
+  }
+  
+  .mainContent {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .sidebar {
+    width: 300px;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  }
+  
+  .chatWindow {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 300px;
+
+  }
+  
+  .noChatSelected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #aaa;
+  }
+  
+  .input {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: darkblue;
+  }
+  
+  

@@ -1,0 +1,17 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.pageHeader {
+  background-color: #00b074;
+  border-color: #00b074;
+  padding: 1rem;
+  text-align: center;
+}
+
+.pageTitle {
+  color: white;
+  font-weight: 600;
+}

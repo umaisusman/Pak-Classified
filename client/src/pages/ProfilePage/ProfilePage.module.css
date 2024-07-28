@@ -1,0 +1,88 @@
+.coverPhoto {
+    position: relative;
+    height: 40vh;
+    margin-bottom: 2rem;
+  }
+  
+  .coverImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profilePicture {
+    position: absolute;
+    bottom: -40px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    background: white;
+  }
+  
+  .profileInfo {
+    margin-left: 20px;
+    color: #ffffff;
+  }
+  
+  .profileName {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .inboxButton {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+  }
+  
+  .myAds {
+    padding: 0 15px;
+  }
+  
+  .savedAds {
+    padding: 0 15px;
+  }
+
+  /* ProfilePage.module.css */
+
+.statusPending {
+  color: red; /* Example styling for pending status */
+  font-size: 13px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.statusApproved {
+  color: green; /* Example styling for approved status */
+  font-size: 13px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.statusRejected {
+  color: orange; /* Example styling for rejected status */
+  font-size: 13px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+  

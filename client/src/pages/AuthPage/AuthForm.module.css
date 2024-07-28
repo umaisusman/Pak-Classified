@@ -1,0 +1,26 @@
+.formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    background-color: #00b074;
+    border-color: #00b074;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .navLink {
+    color: #00b074;
+    cursor: pointer;
+  }
+  
+  .navLinkInactive {
+    color: #393939;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 1rem;
+  }
+  

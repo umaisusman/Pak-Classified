@@ -1,0 +1,59 @@
+.container {
+    padding: 0;
+  }
+  
+  .headerSection {
+    position: relative;
+    height: 60vh;
+  }
+  
+  .headerImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .overlayText {
+    font-weight: bold;
+    margin-top: 25vh;
+  }
+  
+  .cardSection {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .cardTitle {
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #00b074;
+  }
+  
+  .icon {
+    color: #00b074;
+  }
+  
+  .formButton {
+    width: 90%;
+    background-color: #00b074;
+    color: white;
+    border: none;
+    margin-top: 15px;
+  }
+  
+  .mapFrame {
+    border: 0;
+  }
+  

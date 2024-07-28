@@ -1,0 +1,155 @@
+.headerSection {
+    position: relative;
+    height: 60vh;
+  }
+  
+  .headerImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .overlayText {
+    font-weight: bold;
+    margin-top: 25vh;
+  }
+  
+  .cardShadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardBody {
+    padding: 1.5rem;
+  }
+  
+  /* DetailsPage.module.css */
+.profileImage {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.carTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.iconText {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.iconText span {
+  margin-left: 4px;
+}
+
+  
+  .icon {
+    color: #00b074;
+  }
+  
+  .sectionTitle {
+    margin-top: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .featureList {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .featureItem {
+    margin-bottom: 0.5rem;
+  }
+  
+  .accordionHeader {
+    font-weight: bold;
+  }
+  
+  .commentProfileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .commentContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .commentText {
+    margin: 0;
+  }
+  
+  .commentAuthor {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .commentDetails {
+    flex: 1;
+  }
+  
+  .commentDeleteButton {
+    margin-left: auto;
+  }
+  
+  .likeButton {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .outerDiv {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .editButton {
+    position: relative;
+    background-color: #00b074;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .deleteButton {
+    position: relative;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .editForm {
+    padding: 1.5rem;
+  }
+  .smallSpan{
+    font-size: 11px;
+    padding-left: 5px;
+    color: #686868;
+  }
+  

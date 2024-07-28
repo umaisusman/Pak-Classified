@@ -1,0 +1,63 @@
+/* src/pages/CategoryPage/CategoryPage.module.css */
+.headerSection {
+    position: relative;
+    height: 60vh;
+  }
+  
+  .headerImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .overlayText {
+    font-weight: bold;
+    margin-top: 25vh;
+  }
+  
+  .headingSection {
+    text-align: center;
+    padding: 20px 0;
+    color: #00b074;
+  }
+  
+  .headingText {
+    font-weight: bold;
+  }
+  
+  .cardContainer {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .cardImage {
+      height: 200px;
+      width: 500px;
+      border-radius: 5px;
+      object-fit: cover;
+      overflow: hidden  
+  }
+  
+  .linkTag {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
+  

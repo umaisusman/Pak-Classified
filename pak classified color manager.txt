@@ -1,0 +1,28 @@
+
+
+Green Main : #00b074
+Blue Main : #2b9bff
+White Main : #ffffff
+Gray Main : #2b3940
+Black Main : #000000import { Container, Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const HeroSection = () => {
+  return (
+    <div style={{ backgroundColor: '#2b3940', color: '#ffffff', padding: '50px 0' }}>
+      <Container className="text-center">
+        <h1>Shift Into Gear: Your Destination for Car Excellence.</h1>
+        <p>Accelerate Your Search: Your Road to Car Happiness Begins Here</p>
+        <Button href="#search" style={{ backgroundColor: '#00b074', color: '#ffffff', borderColor: '#00b074', margin: '10px' }}>
+          Search A Car
+        </Button>
+        <Button href="#post-advertisement" style={{ backgroundColor: '#2b9bff', color: '#ffffff', borderColor: '#2b9bff', margin: '10px' }}>
+          Post Advertisement
+        </Button>
+      </Container>
+    </div>
+  );
+};
+
+export default HeroSection;
+
